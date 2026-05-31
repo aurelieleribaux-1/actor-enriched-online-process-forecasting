@@ -1,0 +1,16 @@
+datasets:
+  BPIC2017:
+    processed_csv: "data/processed/BPIC2017_final_online_daily_time_series.csv"
+    sarimax_order: [1, 0, 0]
+    sarimax_seasonal_order: [1, 0, 0, 7]
+    seasonal_diagnostic: "weekly seasonality retained"
+  BPIC2012:
+    processed_csv: "data/processed/BPIC2012_final_online_daily_time_series.csv"
+    sarimax_order: [1, 0, 0]
+    sarimax_seasonal_order: [0, 0, 0, 0]
+    seasonal_diagnostic: "no weekly seasonality retained"
+  BPIC2011:
+    processed_csv: "data/processed/BPIC2011_final_online_daily_time_series.csv"
+    sarimax_order: [1, 0, 0]
+    sarimax_seasonal_order: [0, 0, 0, 0]
+    seasonal_diagnostic: "no weekly seasonality retained"
