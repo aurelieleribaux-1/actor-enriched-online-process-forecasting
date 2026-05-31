@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the associated paper."
+title: "When Coordination Becomes Predictive: Actor-Enriched Multi-Horizon Forecasting of Process Performance"
+type: software
+authors:
+  - family-names: "Leribaux"
+    given-names: "Aurélie"
+repository-code: "https://github.com/REPLACE-WITH-YOUR-USERNAME/when-coordination-becomes-predictive"
+license: "Choose-a-license-before-release"
+date-released: "2026-05-31"

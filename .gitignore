@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data: keep documentation and folders, do not commit logs by default
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Model artifacts and generated outputs
+artifacts/
+results/generated/
+figures/generated/
+
+# TensorFlow / model outputs
+*.keras
+*.h5
+*.joblib
+*.pkl
