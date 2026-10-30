@@ -4,9 +4,7 @@ The folder shows the three forms of data needed. First, the raw BPIC event logs 
 
 Second, the folder 'actor enriched event logs' contains the code to construct the daily actor-enriched series as described in the manuscript.
 
-Finally, 
-
-Place the final daily time-series CSV files in `data/processed/`:
+Finally, use these two datasets to generate the time series in 'notebooks/times series generation pipeline' to create the final daily time-series CSV files in `data/processed/`:
 
 ```text
 BPIC2017_final_online_daily_time_series.csv
