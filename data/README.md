@@ -1,6 +1,10 @@
 # Data
 
-Raw BPIC event logs are not redistributed in this repository. Download the logs from their official DOI records and construct the daily actor-enriched series as described in the manuscript.
+The folder shows the three forms of data needed. First, the raw BPIC event logs are not redistributed in this repository. PLease download the original logs from their official DOI records. 
+
+Second, the folder 'actor enriched event logs' contains the code to construct the daily actor-enriched series as described in the manuscript.
+
+Finally, 
 
 Place the final daily time-series CSV files in `data/processed/`:
 
